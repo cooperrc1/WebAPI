@@ -5,8 +5,6 @@ function getWeather(key){
         if(res.ok){
             res.json().then(function(data){
                 displayWeather(data);
-            });
-        }
+            });}
         else{console.log(res.text);}
-    });
-}
+    });}
